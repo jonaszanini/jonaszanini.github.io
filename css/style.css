@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.start {
+	width:100%;
+	position:relative;
+	background: url(../img/laptop.jpg) no-repeat top center;
+    background-size: cover;
+    height: auto;
+}
+
+#start.start {
+	padding:10% 0 0 0;
+}
+
+.start .slogan {
+	margin-left: 5%;
+	margin-top: 10%;
+}
+
+.start .slogan h1 {
+	color: #FFF;
+	text-shadow: none;
+	font-size: 60px;
+	line-height: 30px;
+	font-weight: 400;
+	font-family: Helvetica;
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	border-style: none;
+}
