@@ -1,8 +1,11 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body {
     width: 100%;
     height: 100%;
-    margin: 0;
-    position: absolute;
 }
 
 html {
@@ -31,7 +34,7 @@ html {
 	color: #FFF;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
-	line-height: 30px;
+	/*line-height: 30px;*/
 	font-weight: 700;
 	background-color: rgba(0, 0, 0, 0);
 	text-decoration: none;
