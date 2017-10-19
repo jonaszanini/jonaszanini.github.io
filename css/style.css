@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono|Bilbo|Dorsa|Waiting+for+the+Sunrise|Zeyada);
+
 *{
 	margin: 0;
 	padding: 0;
@@ -22,7 +24,7 @@ html {
 }
 
 #start.start {
-	padding:1% 0 10% 0;
+	padding:1% 0 20% 0;
 }
 
 .start .slogan {
@@ -34,10 +36,18 @@ html {
 	color: #FFF;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
-	/*line-height: 30px;*/
+	line-height: 80px;
 	font-weight: 700;
 	background-color: rgba(0, 0, 0, 0);
 	text-decoration: none;
 	border-style: none;
 	letter-spacing: -2px;
+}
+
+.start .slogan h2 {
+	color: #FFF;
+	font-family: 'Cutive Mono', cursive;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: -1.5px;
 }
