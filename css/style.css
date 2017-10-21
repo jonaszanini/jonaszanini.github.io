@@ -140,11 +140,11 @@ html {
 @media screen and (max-width:412px){
 
 	.start .slogan h1 {
-		font-size: 46px;
-		line-height: 61px;
+	    font-size: 42px;
+	    line-height: 56px;
 	}
 
 	.start .slogan h2 {
-		font-size: 17px;
+		font-size: 15.5px;
 	}
 }
