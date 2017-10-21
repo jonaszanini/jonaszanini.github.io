@@ -30,10 +30,9 @@ html {
 }
 
 .start .slogan {
-	/*margin-left: 15%;
-	margin-top: 15%;*/
 	margin: auto;
 	display: block;
+
 }
 
 .start .slogan h1 {
@@ -62,7 +61,6 @@ html {
 }
 
 .start .logo { 
-	/*background: url(../img/logo.png) no-repeat top center;*/
 	width: 259px;
 	height: 335px;
 	margin: auto;
@@ -146,5 +144,6 @@ html {
 
 	.start .slogan h2 {
 		font-size: 15.5px;
+		margin-top: 40px;
 	}
 }
