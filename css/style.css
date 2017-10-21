@@ -30,8 +30,8 @@ html {
 }
 
 .start .slogan {
-/*	margin-left: 5%;
-	margin-top: 10%;*/
+	/*margin-left: 15%;
+	margin-top: 15%;*/
 	margin: auto;
 	display: block;
 }
@@ -41,7 +41,7 @@ html {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
 	line-height: 80px;
-	font-weight: 700;
+	/*font-weight: 700;*/
 	background-color: rgba(0, 0, 0, 0);
 	text-decoration: none;
 	border-style: none;
@@ -56,8 +56,9 @@ html {
 	font-size: 21px;
 	line-height: 30px;
 	letter-spacing: -1.5px;
-	width: 400px;
 	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
 }
 
 .start .logo { 
@@ -67,18 +68,83 @@ html {
 	margin: auto;
 }
 
+
 @media screen and (max-width:878px){
 	#start.start {
 		flex-direction: column;
 	}
 
 	.start .slogan h1 {
-		font-size: 92px;
-		line-height: 110px;
+	    font-size: 76px;
+	    line-height: 98px;
 	}
 
 	.start .slogan h2 {
-		width: 630px;
-		font-size: 33px;
+		font-size: 27px;
+	}
+
+	.start .logo { 
+		height: 257px;
+		width: 199px;
+	}
+
+	.logo img{
+		height: 257px;
+		width: 199px;
+	}
+}
+
+@media screen and (max-width:730px){
+	.start .slogan h1 {
+	    font-size: 76px;
+	    line-height: 98px;
+	}
+
+	.start .slogan h2 {
+		font-size: 27px;
+	}
+}
+
+@media screen and (max-width:615px){
+	.start .slogan h1 {
+		font-size: 67px;
+		line-height: 87px;
+	}
+
+	.start .slogan h2 {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width:500px){
+	.start .slogan h1 {
+		font-size: 54px;
+		line-height: 72px;
+	}
+
+	.start .slogan h2 {
+		font-size: 20px;
+	}
+
+	.start .logo { 
+		height: 179px;
+		width: 139px;
+	}
+
+	.logo img{
+		height: 179px;
+		width: 139px;
+	}
+}
+
+@media screen and (max-width:412px){
+
+	.start .slogan h1 {
+		font-size: 46px;
+		line-height: 61px;
+	}
+
+	.start .slogan h2 {
+		font-size: 17px;
 	}
 }
