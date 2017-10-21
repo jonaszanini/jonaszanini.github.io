@@ -60,9 +60,25 @@ html {
 	margin-top: 70px;
 }
 
-.start .logo-maneiro { 
-background: url(../img/logo.png) no-repeat top center;
-width: 344px;
-height: 445px;
-margin: auto;
-} 
+.start .logo { 
+	/*background: url(../img/logo.png) no-repeat top center;*/
+	width: 259px;
+	height: 335px;
+	margin: auto;
+}
+
+@media screen and (max-width:878px){
+	#start.start {
+		flex-direction: column;
+	}
+
+	.start .slogan h1 {
+		line-height: 115px;
+		    font-size: 90px;
+	}
+
+	.start .slogan h2 {
+		width: 680px;
+		font-size: 32px;
+	}
+}
