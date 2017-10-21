@@ -37,7 +37,7 @@ html {
 }
 
 .start .slogan h1 {
-	color: #FFF;
+	color: #fcfcfc;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
 	line-height: 80px;
@@ -51,7 +51,7 @@ html {
 }
 
 .start .slogan h2 {
-	color: #FFF;
+	color: #fcfcfc;
 	font-family: 'Cutive Mono', cursive;
 	font-size: 21px;
 	line-height: 30px;
@@ -61,8 +61,8 @@ html {
 }
 
 .start .logo-maneiro { 
-
-width: 200px;
-height: 200px;
+background: url(../img/logo.png) no-repeat top center;
+width: 344px;
+height: 445px;
 margin: auto;
 } 
