@@ -24,12 +24,16 @@ html {
 }
 
 #start.start {
-	padding:1% 0 20% 0;
+	height: 100vh;
+    display: flex;
+    justify-content: space-around;
 }
 
 .start .slogan {
 	margin-left: 5%;
 	margin-top: 10%;
+	margin: auto;
+	display: block;
 }
 
 .start .slogan h1 {
@@ -42,6 +46,8 @@ html {
 	text-decoration: none;
 	border-style: none;
 	letter-spacing: -2px;
+	display: flex;
+	flex-direction: column;
 }
 
 .start .slogan h2 {
@@ -50,4 +56,13 @@ html {
 	font-size: 21px;
 	line-height: 30px;
 	letter-spacing: -1.5px;
+	width: 400px;
+	margin-top: 70px;
 }
+
+.start .logo-maneiro { 
+
+width: 200px;
+height: 200px;
+margin: auto;
+} 
