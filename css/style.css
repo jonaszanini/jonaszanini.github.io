@@ -1,8 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Cutive+Mono|Bilbo|Dorsa|Waiting+for+the+Sunrise|Zeyada);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono|Bilbo|Amatic+SC);
 
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -13,6 +14,52 @@ body {
 html {
     width: 100%;
     height: 100%;
+}
+
+.menubar{
+	float: left;
+	font-family: Amatic SC, sans-serif;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	/*border: 1px solid red;*/
+}
+
+.navbar label{
+	color: #fcfcfc;
+	font-size: 26px;
+	margin: 10px;
+	display: none;
+}
+
+.horizontal a {
+    display: inline-block;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.horizontal li {
+    float: left;
+    /*border: 1px solid #fcfcfc;*/
+    list-style: none;
+}
+
+#toggle{
+	display: none;
+}
+
+.navbar-logo{
+	color: #fcfcfc;
+	float: left;
 }
 
 .start {
@@ -40,13 +87,13 @@ html {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 60px;
 	line-height: 80px;
-	/*font-weight: 700;*/
 	background-color: rgba(0, 0, 0, 0);
 	text-decoration: none;
 	border-style: none;
 	letter-spacing: -2px;
 	display: flex;
 	flex-direction: column;
+	text-shadow: -1px 0 1px #000;
 }
 
 .start .slogan h2 {
@@ -58,6 +105,7 @@ html {
 	margin-top: 70px;
 	display: flex;
 	flex-direction: column;
+	text-shadow: -0.5px 0 1px #000;
 }
 
 .start .logo { 
