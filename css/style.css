@@ -40,7 +40,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h5 p{
-	font-family: 'Cutive Mono', cursive;
 	text-align: justify;
 	text-shadow: -0.5px 0 1px #000;
+	font-size: 15px;
+}
+
+.timelime{
+	background: url(../img/timeline.png) no-repeat top center;
+	width: 20px;
+	height: 100%;
+}
+
+.timelinebox{
+	color: #fcfcfc;
+}
+
+.boxtitle{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.text{
+	font-size: 14px;
+	text-align: justify;
+	text-shadow: -0.6px 0 1px #000;
+}
+
+.timelinebox span{
+	font-size: 15px;
+	color: rgb(128, 128, 128);
 }
