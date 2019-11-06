@@ -4,42 +4,57 @@
 	<title>Jonas Zanini web developer</title>
 	<link href="css/style.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel=”stylesheet” href=”css/bootstrap.css”>
+	<link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+
+	<!-- START script for nav bar -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- END script for nav bar -->
+
+
+
 </head>
-<body id="page-top">
+<body>
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-108240754-1');
-	</script>
-	<!-- end - Google Analytics -->
-
-	<section class="navbar">
-		<div class="navbar-logo"></div>
-		<label for="toggle">&#9776;</label>
-		<input type="checkbox" id="toggle">
-		<nav class="menubar">
-			<ul class="horizontal">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Experience</a></li>
-			</ul>		
+	<section>
+		<!-- NAV BAR cought from  -->
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a href="#" class="navbar-brand">
+				<img src="img/logo.png" height="55" alt="CoolBrand">
+			</a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<div class="navbar-nav">
+					<a href="index.html" class="nav-item nav-link active">Home</a>
+					<a href="about.html" class="nav-item nav-link">About</a>
+					<a href="experience.html" class="nav-item nav-link">Experience</a>
+					<a href="contact.html" class="nav-item nav-link">Contact</a>
+				</div>
+				<div class="navbar-nav ml-auto">
+					<a href="#" class="nav-item nav-link">Login</a>
+				</div>
+			</div>
 		</nav>
 	</section>
 
-	<section id="start" class="start">
+	<section>
 		<div class="slogan">
-			<h1><span>Hi,</span>
-			<span>I'm Jonas,</span>
-			<span>web developer.</span></h1>
-			<h2><span>{ I design and develop experiences</span>
-			<span>that make people's lives simple. }</span></h2>
-		</div>
-		<div class="logo">
-			<img src="img/logo.png">
+				<h1>
+					<span>Hi,</span>
+					<span>I'm Jonas,</span>
+					<span>web developer.</span>
+				</h1>
+				<h2>
+					<span>{ I design and develop experiences</span>
+					<span>that make people's lives simple. }</span>
+				</h2>
 		</div>
 	</section>
 
