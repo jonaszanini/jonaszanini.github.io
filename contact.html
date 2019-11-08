@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jonas Zanini web developer</title>
+	<link href="css/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- START script for nav bar -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- END script for nav bar -->
+
+</head>
+<body>
+
+	<section>
+		<!-- NAV BAR cought from  -->
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a href="index.html" class="navbar-brand">
+				<img src="img/logo.png" height="55" alt="CoolBrand">
+			</a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="experience.html" class="nav-item nav-link">Experience</a>
+                    <a href="contact.html" class="nav-item nav-link active">Contact</a>
+				</div>
+				<div class="navbar-nav ml-auto">
+					<a href="#" class="nav-item nav-link">Login</a>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+	<section>
+
+
+
+        <div class="container">
+
+            <div class="boxtitle">
+                <h1>Contact-me</h1>
+            </div>
+
+            <div class="contactme">
+                Please feel free to contact me. Lets schedule a time for discussion about your project. I will be happy to help you!
+            </div>
+
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="name" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address (Optional)</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div> 
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option> ON </option>
+                        <option> QC </option>
+                        <option> NS </option>
+                        <option> NB </option>
+                        <option> MB </option>
+                        <option> BC </option>
+                        <option> PE </option>
+                        <option> SK </option>
+                        <option> AB </option>
+                        <option> NL </option>
+                    </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Tell me more about your project:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <fieldset class="form-group">
+                        <div class="row">
+                          <label class="col-form-label col-sm-2 pt-0">Type of contact</label>
+                          <div class="col-sm-10">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                              <label class="form-check-label" for="gridRadios1">
+                                Legal entity
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                              <label class="form-check-label" for="gridRadios2">
+                                Natural person
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+        </div>
+    </section>
+
+
+    <footer class="page-footer font-small special-color-dark pt-4">
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://www.linkedin.com/in/jonaszanini/"> linkedin.com/in/jonaszanini</a>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
